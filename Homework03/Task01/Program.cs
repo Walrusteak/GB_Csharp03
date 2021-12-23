@@ -9,7 +9,7 @@ namespace Task01
         static void Main(string[] args)
         {
             WriteLine(Reverse("123"));
-            EmailToFile("../../in.txt", "../../out.txt");
+            EmailToFile("in.txt", "out.txt");
 
 
             Account account1 = new(1000, AccountType.Deposit);
